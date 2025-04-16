@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/qss/login.qss</file>
+        <file>res/qss/register.qss</file>
+        <file>res/qss/commonUserWindow.qss</file>
+        <file>res/qss/superUserWindow.qss</file>
+        <file>res/qss/ChangeInfo.qss</file>
+    </qresource>
+</RCC>

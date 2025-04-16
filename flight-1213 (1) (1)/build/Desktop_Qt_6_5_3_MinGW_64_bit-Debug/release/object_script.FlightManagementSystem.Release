@@ -1,0 +1,15 @@
+release/commonusermainwindow.o
+release/database.o
+release/flightsinfodialog.o
+release/main.o
+release/login.o
+release/registerdialog.o
+release/userinfodialog.o
+release/qrc_pic.o
+release/qrc_qss.o
+release/moc_commonusermainwindow.o
+release/moc_database.o
+release/moc_flightsinfodialog.o
+release/moc_login.o
+release/moc_registerdialog.o
+release/moc_userinfodialog.o

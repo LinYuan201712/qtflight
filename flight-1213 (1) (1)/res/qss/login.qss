@@ -1,0 +1,113 @@
+/*背景*/
+#frame_background{
+   background-color: #facbc2;
+}
+
+/*登录背景*/
+#frame_login{background-color: #db715c;}
+
+/*右侧图片*/
+#frame_plane_pic{
+    border-image: url(:/res/pic/planefirst.png);
+}
+
+/*账户和密码框*/
+#frame_user_name,#frame_pwd{
+    border: 1px solid #696969;
+    border-radius: 5px;
+   background-color: #924b3d;
+}
+
+QLineEdit{
+    border: none;
+    font: 700 11pt "Microsoft YaHei UI";
+   background-color:#924b3d;
+}
+
+/*按钮-登录*/
+#btn_login{
+    color: #facbc2;
+    border: none;
+    background-color:#924b3d;
+    border-radius: 5px;
+}
+/*按钮-登录-鼠标悬停*/
+#btn_login:hover{
+    color: #facbc2;
+    border: none;
+    background-color:#f59785;
+    border-radius: 5px;
+}
+/*按钮-登录-鼠标按下*/
+#btn_login:pressed{
+    color: #facbc2;
+    border: none;
+    background-color:#924b3d;
+    border-radius: 5px;
+}
+
+/*按钮-注册*/
+#btn_register{
+    color:#facbc2;
+    border: none;
+    background-color:#924b3d;
+    border-radius: 5px;
+}
+/*按钮-注册-鼠标悬停*/
+#btn_register:hover{
+    color: #facbc2;
+    border: none;
+    background-color:#f59785;
+    border-radius: 5px;
+}
+/*按钮-注册-鼠标按下*/
+#btn_register:pressed{
+    color: #facbc2;
+    border: none;
+    background-color:#924b3d;
+    border-radius: 5px;
+}
+
+/*按钮-关闭-*/
+#btn_close{
+    border-image: url(:/res/pic/close.png);
+}
+/*按钮-关闭-鼠标悬停*/
+#btn_close:hover{
+    border-image: url(:/res/pic/close_big.png);
+}
+/*按钮-关闭-鼠标按下*/
+#btn_close:pressed{
+    border-image: url(:/res/pic/close.png);
+}
+
+/*按钮-最小化-*/
+#btn_min{
+    border-image: url(:/res/pic/minus.png);
+}
+/*按钮-最小化-鼠标悬停*/
+#btn_min:hover{
+    border-image: url(:/res/pic/minus_big.png);
+}
+/*按钮-最小化-鼠标按下*/
+#btn_min:pressed{
+    border-image: url(:/res/pic/minus.png);
+}
+
+/*label-login*/
+#label_login{
+ color: #facbc2
+}
+/*label-welcome*/
+#label_welcome{
+ color:#db715c;
+}
+
+/*图标-账户*/
+#label_user_name{
+    border-image:url(:/res/pic/user_name.png);
+}
+/*图标-密码*/
+#label_pwd{
+    border-image:url(:/res/pic/pwd.png);
+}

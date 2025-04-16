@@ -1,0 +1,15 @@
+debug/commonusermainwindow.o
+debug/database.o
+debug/flightsinfodialog.o
+debug/main.o
+debug/login.o
+debug/registerdialog.o
+debug/userinfodialog.o
+debug/qrc_pic.o
+debug/qrc_qss.o
+debug/moc_commonusermainwindow.o
+debug/moc_database.o
+debug/moc_flightsinfodialog.o
+debug/moc_login.o
+debug/moc_registerdialog.o
+debug/moc_userinfodialog.o

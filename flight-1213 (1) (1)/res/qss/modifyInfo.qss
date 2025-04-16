@@ -1,0 +1,36 @@
+QLineEdit{
+    border: none;
+    border: 1px solid #696969;
+    border-radius: 10px;
+    height: 28px;
+    font: 700 11pt "Microsoft YaHei UI";
+}
+
+QPushButton{
+    color:#ffffff;
+    border: none;
+    background-color:#fd6c92;
+    border-radius: 5px;
+    height: 28px;
+    font: 700 11pt "Microsoft YaHei UI";
+}
+QPushButton:hover{
+    color:#ffffff;
+    border: none;
+    background-color:#fd4979;
+    border-radius: 5px;
+    height: 28px;
+    font: 700 11pt "Microsoft YaHei UI";
+}
+QPushButton:pressed{
+    color:#ffffff;
+    border: none;
+    background-color:#fd6c92;
+    border-radius: 5px;
+    height: 28px;
+    font: 700 11pt "Microsoft YaHei UI";
+}
+
+QLabel{
+    font: 700 11pt "Microsoft YaHei UI";
+}

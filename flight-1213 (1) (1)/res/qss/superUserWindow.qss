@@ -1,0 +1,124 @@
+/*标题背景*/
+#frame_title{
+    background-color: rgb(225, 225, 225);
+}
+
+/*树节点控件*/
+#treeWidget{
+    font: 12pt "华文中宋";
+    background-color: rgb(225, 225, 225);
+}
+
+/*标题*/
+#label_title{
+    font: 700  30pt "华文新魏";
+}
+
+QPushButton{
+    color:#ffffff;
+    border: none;
+    background-color:#aba5ff;
+    border-radius: 5px;
+    height: 28px;
+    width: 42px;
+    font: 10pt "Microsoft YaHei UI";
+}
+QPushButton:hover{
+    color:#ffffff;
+    border: none;
+    background-color:#9182ff;
+    border-radius: 5px;
+    height: 28px;
+    width: 42px;
+    font: 11pt "Microsoft YaHei UI";
+}
+
+QPushButton:pressed{
+    color:#ffffff;
+    border: none;
+    background-color:#aba5ff;
+    border-radius: 5px;
+    height: 28px;
+    width: 42px;
+    font: 10pt "Microsoft YaHei UI";
+}
+
+
+/*按钮-关闭-*/
+QPushButton#btn_close{
+    width: auto;    /*自动调整宽高*/
+    height: auto;
+    border: none;
+    border-image: url(:/res/pic/close.png);
+
+}
+/*按钮-关闭-鼠标悬停*/
+QPushButton#btn_close:hover{
+    width: auto;
+    height: auto;
+    border: none;
+    border-image: url(:/res/pic/close_big.png);
+}
+/*按钮-关闭-鼠标按下*/
+QPushButton#btn_close:pressed{
+    width: auto;
+    height: auto;
+    border: none;
+    border-image: url(:/res/pic/close.png);
+}
+
+/*按钮-最小化-*/
+QPushButton#btn_min{
+    width: auto;
+    height: auto;
+    border: none;
+    border-image: url(:/res/pic/minus.png);
+}
+/*按钮-最小化-鼠标悬停*/
+QPushButton#btn_min:hover{
+    width: auto;
+    height: auto;
+    border: none;
+    border-image: url(:/res/pic/minus_big.png);
+}
+/*按钮-最小化-鼠标按下*/
+QPushButton#btn_min:pressed{
+    width: auto;
+    height: auto;
+    border: none;
+    border-image: url(:/res/pic/minus.png);
+}
+
+
+QLineEdit{
+    border: none;
+    border: 1px solid #696969;
+    border-radius: 5px;
+    height: 24px;
+    font: 10pt "Microsoft YaHei UI";
+}
+
+/*用户中心控件*/
+#frame_user,#frame_message{
+    background-color:#ffffff
+}
+
+QLabel{
+    font: 12pt "Microsoft YaHei UI";
+}
+
+#label_welcome,#label_text{
+    font: 700 16pt "Microsoft YaHei UI";
+}
+
+#label_user_pic {
+    border-image: url(:/res/pic/user.png);
+}
+
+#frame_username, #frame_password, #frame_name, #frame_phone, #frame_email {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+
